@@ -1,0 +1,256 @@
+@media screen and (max-width:576px){
+    .featurescontainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 20px;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        margin: 30px auto;
+        row-gap: 30px;
+        /* background-color: rgb(34,34,34); */
+    }
+    .resume{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        margin: 0 auto;
+        row-gap: 30px;
+        column-gap: 30px;
+        margin-top: 100px;
+    }
+    .about{
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px auto;
+        margin-top: 100px;
+        column-gap: 30px;
+        overflow: hidden;
+        margin-bottom: 100px;
+    }
+    .tesmonial{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 85%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        place-items: center;
+        overflow: hidden;
+        column-gap: 60px;
+        row-gap: 20px;
+    }
+    .servicecontainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        align-items:center;
+        width: 85%;
+        margin: 100px auto;
+        column-gap: 30px;
+    }
+    .servicebox a{
+        width: 150px;
+        height: 50px;
+        background-color: crimson;
+        color: white;
+        padding-top: 12px;
+        border-radius: 30px;
+        border:none;
+        outline: none;
+        margin-top: 30px;
+        margin-left: 30%;
+        font-size: 1.2rem;
+    }
+    .blogbox{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 100px;
+    
+     }
+     .blogbox1{
+        background-color: rgb(51, 51, 51);
+        width: 80%;
+    }
+}
+ @media screen and (max-width:768px){
+    .featurescontainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 20px;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        margin: 30px auto;
+        row-gap: 30px;
+    }
+    .about{
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0px auto;
+        margin-top: 100px;
+        column-gap: 30px;
+        overflow: hidden;
+        margin-bottom: 100px;
+    }
+    .box{
+        width: 100%;
+       
+    }
+    .box img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    .box1{
+        margin-left: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+       
+    }
+    .box1 h3{
+        font-size: 2rem;
+        font-family: monospace;
+        margin-bottom: 20px;
+        padding-top: 30px;
+        text-align: start;
+        color: white;
+        text-transform: capitalize;
+    }
+    .box1 p{
+        font-size: 1rem;
+        color:rgb(192, 192, 192);
+        line-height: 35px;
+    }
+    .tesmonial{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 85%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        place-items: center;
+        overflow: hidden;
+        column-gap: 60px;
+        row-gap: 20px;
+    }
+    .testmonialbox{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #333;
+        padding: 30px 30px;
+        position:relative;
+        z-index: 1;
+    }
+    .imagetestmonial{
+        width: 43%;
+        height: 90px;
+        overflow: hidden;
+        border-radius: 50%;
+        border-bottom: solid 3px green;
+    }
+    .imagetestmonial img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .testmonialbox p{
+        color: rgb(192, 192, 192);
+        font-size: 1rem;
+        font-family: monospace;
+    }
+    .servicecontainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+        place-items: center;
+        justify-content: center;
+        align-items:center;
+        width: 85%;
+        margin: 100px auto;
+        column-gap: 30px;
+    
+    
+    }
+    .servicebox a{
+        width: 150px;
+        height: 50px;
+        background-color: crimson;
+        color: white;
+        padding-top: 12px;
+        border-radius: 30px;
+        border:none;
+        outline: none;
+        margin-top: 30px;
+        margin-left: 50px;
+        font-size: 1.2rem;
+    }
+
+    .blogbox{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 85%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 100px;
+    
+     }
+    .blogbox1{
+        background-color: rgb(51, 51, 51);
+        width: 100%;
+    }
+    .blogbox1 .blogimage{
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+    .blogbox1 .blogimage img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .blogbox1 h4{
+        font-size: 1.3rem;
+        padding: 10px 20px;
+        color: white;
+        font-weight: 10;
+        font-family: monospace;
+    }
+    .blogbox1 p{
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        font-weight: 100;
+        color:rgb(192,192,192);
+    }
+    .datetime{
+        display: flex;
+        padding: 5px 20px;
+        gap: 10px;
+        color: green;
+        font-size: 1.3rem;
+        margin-bottom: 40px;
+    }
+    .datetime h5{
+        color: rgb(192, 192, 192);
+    }
+} 
